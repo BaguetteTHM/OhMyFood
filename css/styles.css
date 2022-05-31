@@ -39,7 +39,6 @@ body{
     0%{
         opacity: .3;
         transform: rotate(0);
-        transform: scale(1);
     }
     50%{
         opacity: 1;
@@ -381,8 +380,14 @@ h2{
         flex-direction: row;
         justify-content: space-around;
     }
+    .fonctionement h2{
+        margin-left: 2%;
+    }
     .menu__card{
         width: 30%;
+    }
+    .resto h2{
+        margin-left: 2%;
     }
     .restaurants__card{
         width: 23%;
