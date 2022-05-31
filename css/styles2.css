@@ -104,13 +104,12 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    margin: 15px 10pxt;
     flex-direction: column;
     margin: 15px 10px;
 }
 .section__title{
     text-transform: uppercase;
-    font-family: "Roboto",Helvetica,sans-serif;
+    font-family: "Roboto",sans-serif;
     color: #7b7b7b;
     font-weight: 400;
     font-size: 1rem;
@@ -179,7 +178,7 @@ body{
     white-space: nowrap;
 }
 .section__card__text h4{
-    font-family: "Roboto",Helvetica,sans-serif;
+    font-family: "Roboto",sans-serif;
     color: #000;
     font-weight: 700;
     font-size: 1.1rem;
