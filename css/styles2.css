@@ -3,9 +3,6 @@ body{
     font-family: "Roboto",sans-serif;
     font-size: 1rem;
     color: #4d4d4d;
-    /* max-width: 1500px;
-    margin: auto; */
-    
 }
 
 
@@ -73,14 +70,18 @@ body{
     0%{
         background:transparent;
         background-clip:text;
+        -webkit-background-clip: text;
     }
     50%{
         opacity: .5;
+        background:linear-gradient(0deg, #9356DC, #FF79DA) ;
+        -webkit-background-clip: text;
     }
     100%{
         opacity: 1;
         background:linear-gradient(0deg, #9356DC, #FF79DA) ;
         background-clip:text;
+        -webkit-background-clip: text;
         -webkit-text-stroke-width: 0px;
         
     }
@@ -166,7 +167,7 @@ body{
 
 }
 .section__card--4{
-    animation-delay: 300ms;
+    animation-delay: 400ms;
 }
 
 .section__card__text{
